@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 81.0, 79.0, 1357.0, 887.0 ],
+		"rect" : [ 559.0, 79.0, 1357.0, 887.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -43,7 +43,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 2224.81665, 1301.833374, 90.0, 22.0 ],
+					"patching_rect" : [ 2254.833496, 1307.833374, 90.0, 22.0 ],
 					"style" : "",
 					"text" : "color 0. 0. 0. 1."
 				}
@@ -81,9 +81,9 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 2173.81665, 1301.833374, 49.0, 22.0 ],
+					"patching_rect" : [ 2203.833496, 1307.833374, 49.0, 22.0 ],
 					"style" : "",
-					"text" : "size 20"
+					"text" : "size 23"
 				}
 
 			}
@@ -94,7 +94,9 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 1474.766724, 1402.633423, 452.600006, 302.600006 ]
+					"patching_rect" : [ 1607.233398, 1456.0, 452.600006, 302.600006 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 328.233398, 41.666714, 452.600006, 302.600006 ]
 				}
 
 			}
@@ -105,7 +107,9 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 873.5, 1739.0, 377.0, 257.0 ]
+					"patching_rect" : [ 1112.0, 1456.0, 448.833405, 302.600006 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 328.233398, 370.666718, 450.716705, 302.600006 ]
 				}
 
 			}
@@ -144,7 +148,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1843.433472, 1301.833374, 312.0, 23.0 ],
+					"patching_rect" : [ 1889.833374, 1307.833374, 312.0, 23.0 ],
 					"style" : "",
 					"text" : "text Studio B004 Occupied by Studio Course Leader"
 				}
@@ -189,7 +193,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "bang", "" ],
-					"patching_rect" : [ 1585.166748, 1158.333374, 259.0, 23.0 ],
+					"patching_rect" : [ 1585.166748, 1160.333374, 259.0, 23.0 ],
 					"style" : "",
 					"text" : "jit.gl.render mytext @erase_color 1. 1. 1. 1."
 				}
@@ -207,20 +211,6 @@
 					"patching_rect" : [ 1889.833374, 1365.5, 170.0, 23.0 ],
 					"style" : "",
 					"text" : "jit.gl.text2d mytext @align 1"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-56",
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 415.166687, 232.0, 150.0, 20.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 278.666687, 340.0, 150.0, 20.0 ],
-					"style" : "",
-					"text" : "Reset Video"
 				}
 
 			}
@@ -290,9 +280,9 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "bang", "" ],
-					"patching_rect" : [ 179.5, 1954.0, 85.0, 22.0 ],
+					"patching_rect" : [ 179.5, 1954.0, 63.0, 22.0 ],
 					"style" : "",
-					"text" : "jit.window text"
+					"text" : "jit.window"
 				}
 
 			}
@@ -2595,7 +2585,7 @@
 					"destination" : [ "obj-186", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"order" : 1,
+					"order" : 2,
 					"source" : [ "obj-88", 0 ]
 				}
 
@@ -2603,6 +2593,16 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-68", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"order" : 1,
+					"source" : [ "obj-88", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-82", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
 					"order" : 0,
