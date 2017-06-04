@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 34.0, 79.0, 1368.0, 787.0 ],
+		"rect" : [ 34.0, 79.0, 960.0, 787.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -44,7 +44,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 1469.166748, 1225.833374, 150.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 81.999992, 277.833344, 150.0, 20.0 ],
+					"presentation_rect" : [ 66.999992, 393.500031, 150.0, 20.0 ],
 					"style" : "",
 					"text" : "video 3 input"
 				}
@@ -58,7 +58,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 1346.166748, 955.833496, 150.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 86.999992, 217.333344, 150.0, 20.0 ],
+					"presentation_rect" : [ 71.999992, 333.000031, 150.0, 20.0 ],
 					"style" : "",
 					"text" : "video 3play/off"
 				}
@@ -440,7 +440,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 1438.166748, 1281.333374, 145.0, 22.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 86.999992, 299.833344, 145.0, 22.0 ],
+					"presentation_rect" : [ 71.999992, 415.500031, 145.0, 22.0 ],
 					"style" : ""
 				}
 
@@ -456,7 +456,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1344.166748, 990.833496, 42.0, 23.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 129.0, 249.333344, 42.0, 23.0 ],
+					"presentation_rect" : [ 113.999992, 365.000031, 42.0, 23.0 ],
 					"style" : "",
 					"text" : "close"
 				}
@@ -473,7 +473,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1388.166748, 990.833496, 40.0, 23.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 172.999985, 249.333344, 40.0, 23.0 ],
+					"presentation_rect" : [ 157.999985, 365.000031, 40.0, 23.0 ],
 					"style" : "",
 					"text" : "open"
 				}
@@ -790,7 +790,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 592.299988, 1870.0, 150.0, 22.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 72.999992, 502.0, 150.0, 22.0 ],
+					"presentation_rect" : [ 61.999989, 639.633423, 150.0, 22.0 ],
 					"style" : ""
 				}
 
@@ -803,7 +803,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 416.5, 1870.0, 150.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 76.999992, 419.000061, 150.0, 20.0 ],
+					"presentation_rect" : [ 65.999985, 556.633484, 150.0, 20.0 ],
 					"style" : "",
 					"text" : "Full Screen"
 				}
@@ -834,7 +834,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 420.833374, 1896.0, 20.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 104.999992, 450.333344, 24.0, 24.0 ],
+					"presentation_rect" : [ 93.999985, 587.966736, 24.0, 24.0 ],
 					"style" : ""
 				}
 
@@ -1035,7 +1035,7 @@
 					"outlettype" : [ "bang" ],
 					"patching_rect" : [ 278.833374, 965.666687, 71.0, 22.0 ],
 					"style" : "",
-					"text" : "metro 2000"
+					"text" : "metro 7000"
 				}
 
 			}
@@ -1354,7 +1354,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 363.333374, 420.0, 150.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 72.999992, 342.333344, 150.0, 20.0 ],
+					"presentation_rect" : [ 61.999989, 479.966736, 150.0, 20.0 ],
 					"style" : "",
 					"text" : "Start Getting Frames"
 				}
@@ -1370,7 +1370,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 327.333374, 416.0, 24.0, 24.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 104.999992, 364.333344, 24.0, 24.0 ],
+					"presentation_rect" : [ 93.999985, 501.966736, 24.0, 24.0 ],
 					"style" : ""
 				}
 
@@ -1865,7 +1865,7 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-7",
-					"items" : [ "TeckNet ", ",", "FaceTime HD Camera (Built-in)" ],
+					"items" : [ "FaceTime HD Camera", ",", "TeckNet " ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -2324,7 +2324,7 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-32",
-					"items" : [ "TeckNet ", ",", "FaceTime HD Camera (Built-in)" ],
+					"items" : [ "FaceTime HD Camera", ",", "TeckNet " ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
