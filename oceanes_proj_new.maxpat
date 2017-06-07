@@ -3,13 +3,13 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 7,
-			"minor" : 3,
-			"revision" : 3,
+			"minor" : 2,
+			"revision" : 0,
 			"architecture" : "x86",
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 34.0, 79.0, 960.0, 787.0 ],
+		"rect" : [ 34.0, 78.0, 1212.0, 684.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -37,6 +37,19 @@
 		"style" : "",
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-98",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 392.0, 1066.0, 50.0, 22.0 ],
+					"style" : "",
+					"text" : "1"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-45",
 					"maxclass" : "comment",
@@ -72,13 +85,13 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 2,
-					"outlettype" : [ "clear", "clear" ],
+					"outlettype" : [ "", "" ],
 					"patcher" : 					{
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 7,
-							"minor" : 3,
-							"revision" : 3,
+							"minor" : 2,
+							"revision" : 0,
 							"architecture" : "x86",
 							"modernui" : 1
 						}
@@ -219,7 +232,6 @@
 								"box" : 								{
 									"comment" : "",
 									"id" : "obj-1",
-									"index" : 1,
 									"maxclass" : "inlet",
 									"numinlets" : 0,
 									"numoutlets" : 1,
@@ -233,7 +245,6 @@
 								"box" : 								{
 									"comment" : "",
 									"id" : "obj-5",
-									"index" : 1,
 									"maxclass" : "outlet",
 									"numinlets" : 1,
 									"numoutlets" : 0,
@@ -246,7 +257,6 @@
 								"box" : 								{
 									"comment" : "",
 									"id" : "obj-13",
-									"index" : 2,
 									"maxclass" : "outlet",
 									"numinlets" : 1,
 									"numoutlets" : 0,
@@ -324,7 +334,6 @@
 									"destination" : [ "obj-21", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
-									"order" : 1,
 									"source" : [ "obj-33", 0 ]
 								}
 
@@ -335,7 +344,6 @@
 									"disabled" : 0,
 									"hidden" : 0,
 									"midpoints" : [ 59.5, 128.5, 160.5, 128.5 ],
-									"order" : 0,
 									"source" : [ "obj-33", 0 ]
 								}
 
@@ -346,7 +354,6 @@
 									"disabled" : 0,
 									"hidden" : 0,
 									"midpoints" : [ 123.5, 124.5, 311.5, 124.5 ],
-									"order" : 0,
 									"source" : [ "obj-33", 1 ]
 								}
 
@@ -357,7 +364,6 @@
 									"disabled" : 0,
 									"hidden" : 0,
 									"midpoints" : [ 123.5, 124.5, 210.5, 124.5 ],
-									"order" : 1,
 									"source" : [ "obj-33", 1 ]
 								}
 
@@ -432,7 +438,7 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-78",
-					"items" : [ "TeckNet ", ",", "FaceTime HD Camera (Built-in)" ],
+					"items" : "FaceTime HD Camera",
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -517,7 +523,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1861.000122, 1236.5, 90.0, 22.0 ],
 					"style" : "",
-					"text" : "rect 1440 900"
+					"text" : "rect 1280 800"
 				}
 
 			}
@@ -1510,8 +1516,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 7,
-							"minor" : 3,
-							"revision" : 3,
+							"minor" : 2,
+							"revision" : 0,
 							"architecture" : "x86",
 							"modernui" : 1
 						}
@@ -1652,7 +1658,6 @@
 								"box" : 								{
 									"comment" : "",
 									"id" : "obj-1",
-									"index" : 1,
 									"maxclass" : "inlet",
 									"numinlets" : 0,
 									"numoutlets" : 1,
@@ -1666,7 +1671,6 @@
 								"box" : 								{
 									"comment" : "",
 									"id" : "obj-5",
-									"index" : 1,
 									"maxclass" : "outlet",
 									"numinlets" : 1,
 									"numoutlets" : 0,
@@ -1679,7 +1683,6 @@
 								"box" : 								{
 									"comment" : "",
 									"id" : "obj-13",
-									"index" : 2,
 									"maxclass" : "outlet",
 									"numinlets" : 1,
 									"numoutlets" : 0,
@@ -1757,7 +1760,6 @@
 									"destination" : [ "obj-21", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
-									"order" : 1,
 									"source" : [ "obj-33", 0 ]
 								}
 
@@ -1768,7 +1770,6 @@
 									"disabled" : 0,
 									"hidden" : 0,
 									"midpoints" : [ 59.5, 128.5, 160.5, 128.5 ],
-									"order" : 0,
 									"source" : [ "obj-33", 0 ]
 								}
 
@@ -1779,7 +1780,6 @@
 									"disabled" : 0,
 									"hidden" : 0,
 									"midpoints" : [ 123.5, 124.5, 311.5, 124.5 ],
-									"order" : 0,
 									"source" : [ "obj-33", 1 ]
 								}
 
@@ -1790,7 +1790,6 @@
 									"disabled" : 0,
 									"hidden" : 0,
 									"midpoints" : [ 123.5, 124.5, 210.5, 124.5 ],
-									"order" : 1,
 									"source" : [ "obj-33", 1 ]
 								}
 
@@ -1865,7 +1864,7 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-7",
-					"items" : [ "FaceTime HD Camera", ",", "TeckNet " ],
+					"items" : "FaceTime HD Camera",
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -1969,8 +1968,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 7,
-							"minor" : 3,
-							"revision" : 3,
+							"minor" : 2,
+							"revision" : 0,
 							"architecture" : "x86",
 							"modernui" : 1
 						}
@@ -2111,7 +2110,6 @@
 								"box" : 								{
 									"comment" : "",
 									"id" : "obj-1",
-									"index" : 1,
 									"maxclass" : "inlet",
 									"numinlets" : 0,
 									"numoutlets" : 1,
@@ -2125,7 +2123,6 @@
 								"box" : 								{
 									"comment" : "",
 									"id" : "obj-5",
-									"index" : 1,
 									"maxclass" : "outlet",
 									"numinlets" : 1,
 									"numoutlets" : 0,
@@ -2138,7 +2135,6 @@
 								"box" : 								{
 									"comment" : "",
 									"id" : "obj-13",
-									"index" : 2,
 									"maxclass" : "outlet",
 									"numinlets" : 1,
 									"numoutlets" : 0,
@@ -2216,7 +2212,6 @@
 									"destination" : [ "obj-21", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
-									"order" : 1,
 									"source" : [ "obj-33", 0 ]
 								}
 
@@ -2227,7 +2222,6 @@
 									"disabled" : 0,
 									"hidden" : 0,
 									"midpoints" : [ 59.5, 128.5, 160.5, 128.5 ],
-									"order" : 0,
 									"source" : [ "obj-33", 0 ]
 								}
 
@@ -2238,7 +2232,6 @@
 									"disabled" : 0,
 									"hidden" : 0,
 									"midpoints" : [ 123.5, 124.5, 311.5, 124.5 ],
-									"order" : 0,
 									"source" : [ "obj-33", 1 ]
 								}
 
@@ -2249,7 +2242,6 @@
 									"disabled" : 0,
 									"hidden" : 0,
 									"midpoints" : [ 123.5, 124.5, 210.5, 124.5 ],
-									"order" : 1,
 									"source" : [ "obj-33", 1 ]
 								}
 
@@ -2324,7 +2316,7 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-32",
-					"items" : [ "FaceTime HD Camera", ",", "TeckNet " ],
+					"items" : "FaceTime HD Camera",
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -2421,7 +2413,6 @@
 					"destination" : [ "obj-18", 1 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"order" : 0,
 					"source" : [ "obj-11", 2 ]
 				}
 
@@ -2431,7 +2422,6 @@
 					"destination" : [ "obj-21", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"order" : 1,
 					"source" : [ "obj-11", 2 ]
 				}
 
@@ -2477,7 +2467,6 @@
 					"destination" : [ "obj-23", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"order" : 1,
 					"source" : [ "obj-16", 0 ]
 				}
 
@@ -2487,7 +2476,6 @@
 					"destination" : [ "obj-39", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"order" : 0,
 					"source" : [ "obj-16", 0 ]
 				}
 
@@ -2497,7 +2485,6 @@
 					"destination" : [ "obj-10", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"order" : 1,
 					"source" : [ "obj-17", 0 ]
 				}
 
@@ -2507,7 +2494,15 @@
 					"destination" : [ "obj-35", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"order" : 0,
+					"source" : [ "obj-17", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-86", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
 					"source" : [ "obj-17", 0 ]
 				}
 
@@ -2526,7 +2521,6 @@
 					"destination" : [ "obj-192", 1 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"order" : 1,
 					"source" : [ "obj-185", 0 ]
 				}
 
@@ -2536,7 +2530,6 @@
 					"destination" : [ "obj-52", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"order" : 0,
 					"source" : [ "obj-185", 0 ]
 				}
 
@@ -2555,7 +2548,6 @@
 					"destination" : [ "obj-185", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"order" : 1,
 					"source" : [ "obj-188", 0 ]
 				}
 
@@ -2565,7 +2557,6 @@
 					"destination" : [ "obj-187", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"order" : 0,
 					"source" : [ "obj-188", 0 ]
 				}
 
@@ -2647,7 +2638,6 @@
 					"destination" : [ "obj-31", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"order" : 1,
 					"source" : [ "obj-26", 0 ]
 				}
 
@@ -2657,7 +2647,6 @@
 					"destination" : [ "obj-38", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"order" : 0,
 					"source" : [ "obj-26", 0 ]
 				}
 
@@ -2951,7 +2940,6 @@
 					"destination" : [ "obj-14", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"order" : 0,
 					"source" : [ "obj-66", 0 ]
 				}
 
@@ -2961,7 +2949,6 @@
 					"destination" : [ "obj-16", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"order" : 1,
 					"source" : [ "obj-66", 0 ]
 				}
 
@@ -3087,6 +3074,15 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-98", 1 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-76", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-76", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
@@ -3108,7 +3104,6 @@
 					"destination" : [ "obj-10", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"order" : 1,
 					"source" : [ "obj-79", 0 ]
 				}
 
@@ -3118,7 +3113,15 @@
 					"destination" : [ "obj-35", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"order" : 0,
+					"source" : [ "obj-79", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-86", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
 					"source" : [ "obj-79", 0 ]
 				}
 
@@ -3146,7 +3149,6 @@
 					"destination" : [ "obj-59", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"order" : 1,
 					"source" : [ "obj-81", 0 ]
 				}
 
@@ -3156,7 +3158,6 @@
 					"destination" : [ "obj-85", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"order" : 0,
 					"source" : [ "obj-81", 0 ]
 				}
 
@@ -3222,7 +3223,6 @@
 					"destination" : [ "obj-186", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"order" : 2,
 					"source" : [ "obj-88", 0 ]
 				}
 
@@ -3232,7 +3232,6 @@
 					"destination" : [ "obj-68", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"order" : 1,
 					"source" : [ "obj-88", 0 ]
 				}
 
@@ -3242,7 +3241,6 @@
 					"destination" : [ "obj-82", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"order" : 0,
 					"source" : [ "obj-88", 0 ]
 				}
 
@@ -3270,7 +3268,6 @@
 					"destination" : [ "obj-83", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"order" : 1,
 					"source" : [ "obj-91", 0 ]
 				}
 
@@ -3280,7 +3277,6 @@
 					"destination" : [ "obj-89", 1 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"order" : 0,
 					"source" : [ "obj-91", 0 ]
 				}
 
@@ -3290,7 +3286,6 @@
 					"destination" : [ "obj-75", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"order" : 1,
 					"source" : [ "obj-92", 0 ]
 				}
 
@@ -3300,7 +3295,6 @@
 					"destination" : [ "obj-93", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"order" : 0,
 					"source" : [ "obj-92", 0 ]
 				}
 
@@ -3310,7 +3304,6 @@
 					"destination" : [ "obj-14", 1 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"order" : 0,
 					"source" : [ "obj-93", 0 ]
 				}
 
@@ -3320,7 +3313,6 @@
 					"destination" : [ "obj-30", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"order" : 1,
 					"source" : [ "obj-93", 0 ]
 				}
 
@@ -3330,7 +3322,6 @@
 					"destination" : [ "obj-90", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"order" : 1,
 					"source" : [ "obj-94", 2 ]
 				}
 
@@ -3349,7 +3340,6 @@
 					"destination" : [ "obj-91", 1 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"order" : 0,
 					"source" : [ "obj-94", 2 ]
 				}
 
